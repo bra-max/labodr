@@ -1,0 +1,40 @@
+{
+  "apiVersion": 3,
+  "name": "lcb/logo-carousel",
+  "version": "0.1.0",
+  "title": "Carousel",
+  "category": "logo-blocks",
+  "description": "Shows clients logos in a carousel",
+  "supports": {
+    "html": false,
+    "align": [
+      "wide",
+      "full"
+    ]
+  },
+  "keywords": [
+    "logo",
+    "carousel",
+    "logo carousel",
+    "logo slider"
+  ],
+  "textdomain": "awesome-logo-carousel-blocks",
+  "editorScript": [
+    "file:./index.js",
+    "alcb-swiper",
+    "alcb-global"
+  ],
+  "editorStyle": [
+    "file:./index.css",
+    "alcb-swiper",
+    "alcb-global-style"
+  ],
+  "style": [
+    "file:./style-index.css",
+    "alcb-swiper"
+  ],
+  "viewScript": [
+    "file:./view.js",
+    "alcb-swiper"
+  ]
+}

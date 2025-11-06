@@ -1,0 +1,1 @@
+(()=>{"use strict";(0,window.wp.hooks.addFilter)("blocks.registerBlockType","alcb/attribute/global",(function(t,e){return e.includes("lcb/")&&(t.attributes={...t.attributes,sliderId:{type:"string"},preview:{type:"boolean",default:!1},resMode:{type:"string",default:"Desktop"},blockStyle:{type:"object"}}),t}))})();

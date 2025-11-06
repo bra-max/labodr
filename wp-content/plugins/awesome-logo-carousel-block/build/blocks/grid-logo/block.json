@@ -1,0 +1,40 @@
+{
+  "apiVersion": 3,
+  "name": "lcb/grid-logo",
+  "version": "0.1.0",
+  "title": "Grid",
+  "category": "logo-blocks",
+  "description": "Shows clients logos in a carousel",
+  "supports": {
+    "html": false
+  },
+  "providesContext": {
+    "lcb/enableLink": "enableLink",
+    "lcb/captionVisibility": "captionVisibility",
+    "lcb/contentVisiblity": "contentVisiblity",
+    "lcb/showDesc": "showDesc",
+    "lcb/logoHoverStyle": "logoHoverStyle",
+    "lcb/hoverOverlay": "hoverOverlay",
+    "lcb/hoverEffect": "hoverEffect",
+    "lcb/contentPosition": "contentPosition",
+    "lcb/visibleContentPosition": "visibleContentPosition"
+  },
+  "keywords": [
+    "logo",
+    "carousel",
+    "logo carousel",
+    "logo slider"
+  ],
+  "textdomain": "awesome-logo-carousel-blocks",
+  "editorScript": [
+    "file:./index.js",
+    "alcb-global"
+  ],
+  "editorStyle": [
+    "file:./index.css",
+    "alcb-global-style"
+  ],
+  "style": [
+    "file:./style-index.css"
+  ]
+}
